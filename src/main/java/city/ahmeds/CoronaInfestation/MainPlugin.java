@@ -12,6 +12,7 @@ public class MainPlugin extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		instance = this;
+		if (!new License(this, "CoronaInfestation", "12039405CORONAINFESTATION").check()) return;
 		if (!getDataFolder().exists()) {
 			getDataFolder().mkdirs();
 		}
