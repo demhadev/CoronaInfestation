@@ -1,0 +1,6 @@
+name: CoronaInfestation
+version: 0.0.1
+main: city.ahmeds.CoronaInfestation.MainPlugin
+author: Vomet
+api-version: 1.14
+commands:
